@@ -25,7 +25,7 @@ app.add_middleware(
 )
 
 # --------------------- Data Loading & Forecasting ---------------------
-DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "Sheet 2-DATA OF MANGANESE ORE (2014-24).csv")
+DATA_PATH = os.path.join(os.path.dirname(__file__), "Sheet 2-DATA OF MANGANESE ORE (2014-24).csv")
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "sih_manganese_model.pkl")
 
 forecast_cache = None
