@@ -345,7 +345,7 @@ with t4:
 
         st.write("**Confusion Matrix**")
         cm_df = pd.DataFrame([[tn, fp], [fn, tp]], index=["Actual 0", "Actual 1"], columns=["Predicted 0", "Predicted 1"])
-        st.dataframe(cm_df.style.background_gradient(cmap="Blues"), use_container_width=False)
+        st.dataframe(cm_df, use_container_width=False)
 
         st.divider()
         st.subheader("Explore Test Samples")
