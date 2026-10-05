@@ -12,7 +12,7 @@ import glob as glib
 
 st.set_page_config(page_title="Manganese Explorer", layout="wide")
 
-BACKEND = "http://localhost:8000"
+BACKEND = "https://sih26009-manganese-reserve-prediction.onrender.com"
 
 # Get data (cached - only fetched once)
 @st.cache_data(ttl=300)
